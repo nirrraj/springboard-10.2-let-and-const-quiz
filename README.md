@@ -16,4 +16,4 @@ What is the difference between var and const? The same as above -- scoping -- pl
 
 What is the difference between let and const? While these two have the same scope (block level), const variables cannot have their type or value reassigned.
 
-What is hoisting? Hoisting occurs with var -- declaration occurs and is alloted memory before initialization. So the variables, by name, exist at the very beginning and will have a value of undefined until initialized.
+What is hoisting? Hoisting occurs with var -- declaration occurs and is alloted memory before initialization. So the variables, by name, exist at the very beginning and will have a value of undefined until initialized. Therefore they can be referred to even before they are given a value or used in any way, without causing an error.
